@@ -20,7 +20,7 @@
 
 * Grid
 
-* Conteúdo responsivo
+* Responsive Web Design
 
 ## Feito por:
 
