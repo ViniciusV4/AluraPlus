@@ -210,4 +210,8 @@ body {
     .list__link {
         margin-bottom: 4%;
     }
+
+    .devices__title {
+        margin: 0 2%;
+    }
 }
