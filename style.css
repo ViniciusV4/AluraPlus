@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-title: #FFFFFF;
+    --color-grey: #C0C0C0;
+    --color-red: #EC2F46;
+    --color-blue: #167BF7;
+    --color-background: #00030C;
+    --font-main: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.title {
+    color: var(--color-title);
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.container__content {
+ margin: 2em 4em;
+}
+
+.first {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__subscription-button {
+    text-decoration: none;
+    background-color: var(--color-blue);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--color-title);
+    display: block;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.button-secundary {
+    background-color: transparent;
+    border: 2px solid var(--color-title);
+}
+
+.container__notice {
+    font-size: 0.8em;
+    color: var(--color-grey);
+    font-family: var(--font-main);
+    font-weight: 400;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.secundary {
+    align-items: center;
+    margin: 0 8em;
+}
+
+.watch {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+.secundary__img {
+    width: 80%;
+}
+
+.button-plus {
+    width: 28%;
+    margin-top: 1em;
+}
+
+.container__description {
+    padding: 2em;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 4em 0;
+}
+
+.devices {
+    text-align: center;
+
+}
+
+.devices__title{
+    color: var(--color-title);
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.list__item {
+    font-size: 1.5em;
+    color: var(--color-title);
+    font-family: var(--font-main);
+}
+
+.baseboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 8em;
+    padding: 2em 8em;
+}
+
+.baseboard__logo {
+    width: 102px;
+    height: 35.28px;
+}
+
+.baseboard__list {
+    display: flex;
+    gap: 16px;
+}
+
+.list__link {
+    font-size: 0.8em;
+    list-style-type: none;
+}
+
+.list__link__text {
+    text-decoration: none;
+    color: var(--color-title);
+    font-family: var(--font-main);
+}
+
+.baseboard__text {
+    text-align: center;
+    color: var(--color-grey);
+    font-size: 0.9em;
+}
+
+.list__link a:hover {
+    color: var(--color-blue);
+}
